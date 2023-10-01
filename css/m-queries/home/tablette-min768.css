@@ -1,0 +1,139 @@
+
+/************************************************************************************************************/
+/********************************************* media queries ************************************************/
+/********************************** New rules if the screen is at more 767px ********************************/
+@media screen and (min-width: 768px){
+    
+    /**********************************************************************************************/
+    /******************************************** header ******************************************/
+    /**********************************************************************************************/
+    .nav__location{
+        height: 80px;
+    } 
+    .nav__location__city{
+        top: 30px;
+    }
+    .nav__location__city__icon,
+    .nav__location__city__input{
+        font-size: 18px;
+    }
+    .nav__menu{
+       padding-top: 60px;
+       padding-bottom: 30px;
+    }
+    .nav__menu h2{
+        font-size: 26px;
+    }
+    .nav__menu__heading--margin{
+        margin-top: 0;
+        margin-left: 15.7%;
+    }
+    .nav__menu__subheading--margin{
+        margin-bottom: 30px;
+    }
+    .nav__menu__btn{
+        height: 60px;
+        width: 280px;
+        padding-top: 18px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    /**********************************************************************************************/
+    /********************************************* main *******************************************/
+    /**********************************************************************************************/
+
+    /*************************************** functioning ******************************************/
+    .functioning{
+        padding-top: 80px;
+        padding-bottom: 70px;
+    }
+    .heading{
+        font-size: 26px;
+    }
+    .functioning__list li{
+        height: 100px;
+    }
+    .functioning__list__heading{
+        font-size: 18px;
+    }
+    .number{
+        margin-top: 35px;
+        width: 30px;
+        height: 30px;
+        padding-top: 6px;
+        margin-left: -15px;
+        font-size: 16px;
+    }
+    .functioning__list li i{
+        margin-top: 2px;
+        margin-left: 25px;
+        font-size: 25px;
+    }
+
+    /*************************************** restaurant *******************************************/
+    .restaurant{
+        padding-top: 54px;
+        padding-bottom: 87px;
+        height: auto;
+        background-color: rgb(240, 240, 240);
+    }
+    .restaurant__choice{
+        height: 420px;
+        margin-bottom: 30px;
+    }
+    .restaurant__choice__name,
+    .restaurant__choice__info{
+        margin-left: 30px;
+    }
+    .new{
+        padding-left: 20px;
+        padding-top: 10px;
+        margin-top: 50px;
+        border-radius: 4px;
+        width: 105px;
+        height: 40px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .restaurant__choice__imgBox{
+        height: 320px;
+    }
+    .img-r-la-note-enchantee{
+        margin-top: -390px;
+    }
+    .img-r-a-la-francaise{
+        margin-top: -135px;
+    }
+    .img-r-le-delice-des-sens{
+        margin-top: -140px;
+    }
+    .restaurant__choice__name{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .restaurant__choice__info{
+        font-size: 17px;
+    }
+    .fa-heart{
+        background-position-y: 25px;
+    }
+    .fa-heart--restaurantPosition{
+        right: 10%;
+        margin-top: 30px;
+    }
+    .fa-heart--sizeOne{
+        font-size: 25px;
+        width: 25px;
+        height: 25px;
+    }
+    .heartTwo{
+        background-position-y: 27px;
+    }
+    .fa-heart--sizeTwo{
+        font-size: 27px;
+        width: 27px;
+        height: 27px;
+        margin-top: 28px;
+    }
+}

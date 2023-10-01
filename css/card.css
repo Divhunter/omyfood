@@ -1,0 +1,253 @@
+/**********************************************************************************************/
+/******************************************** header ******************************************/
+/**********************************************************************************************/
+.nav__logo__arrow{
+    float: left;
+    margin-left: 6%;
+    margin-top: 22px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+.nav__logo__img--margin{
+    margin-right: 10%;
+}
+.nav__food__picture{
+    max-width: 1400px;
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+}
+.nav__food__picture__img{
+    right: 15px;
+    width: 108%;
+    height: auto;
+}
+.img-la-note-enchantee{
+    margin-top: -123px;
+}
+.img-le-delice-des-sens{
+    margin-top: -7px;
+}
+
+/**********************************************************************************************/
+/********************************************* main *******************************************/
+/**********************************************************************************************/
+.form__meal{
+    height: auto;
+    top: -50px;
+    padding-left: 5.5%;
+    padding-top: 18px;
+    margin-bottom: -50px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 38px 38px  0 0;
+    z-index: 1;
+}
+.form__meal__heading{
+    font-family: 'Shrikhand', cursive;
+    font-size: 26.6px;
+    margin-bottom: 36px;
+}
+.fa-heart--mealPosition{
+    position: absolute;
+    margin-top: -65px;
+    right: 45px;
+}
+fieldset{
+    height: auto;
+    border: none;
+}
+.entree{
+    margin-bottom: 15px;
+}
+.main{
+    margin-bottom: 22px;
+}
+.dessert{
+    margin-bottom: 28px;
+}
+.form__field__subheading{
+    display: inline-block;
+    margin-left: -12px;
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
+    border-bottom: solid 3px  #99E2D0;
+    width: 40px;
+    padding-bottom: 5px;
+    margin-bottom: -9px;
+}
+.form__field__list{ 
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 1%;
+}
+.form__field__list li{
+    width: auto;
+    min-height: 70px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: white;
+    padding-left: 10px;
+    margin-left: -30px;
+    margin-bottom: 12px;
+    box-shadow: rgba(50, 50, 93, 0.1) 0px 6px 12px -2px, 
+    rgba(200, 200, 200, 0.25) 0px 3px 7px -3px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.form__field__check,
+.form__field__check-bSize{
+    float: right;
+    width: 60px;
+    margin-right: -60px;
+    text-align: center;
+    background-color: #99E2D0;
+    transition: margin-right .4s;
+    cursor: pointer;
+}
+.form__field__check{
+    height: 71px;
+}
+.form__field__check-bSize{
+    height: 91px;
+}
+.form__field__check > .fa-circle-check{
+    margin-top: 40%;
+}
+.form__field__check-bSize > .fa-circle-check{
+    margin-top: 60%;
+}
+.fa-circle-check{
+    color: white;
+    font-size: 20px;
+    margin-left: -3px;
+    cursor: pointer;
+}
+.form__field__info{
+    height: auto;
+    margin-top: -4px;
+    margin-left: -10px;
+    padding-left: 10px;
+    padding-right: 25px;
+    cursor: pointer;
+    transition: margin-right .4s;
+}
+.form__field__info__name,
+.form__field__info__additional{
+    margin-right: 55px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.form__field__info__name{
+    margin-bottom: -10px; 
+    cursor: pointer;
+}
+.form__field__info__additional{
+    cursor: pointer;
+}
+.form__field__info__price{
+    margin-top: -32px;
+    float: right;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form__field__btnBox__button{
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 71px;
+    margin-left: -21px;
+    height: 50px;
+    width: 185px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: .5px;
+    color: white;
+}
+
+/******************* form__field__list "on page load animation" *******************/
+/******************* opacity, margin-top *******************/
+.form__field__subheading{
+    animation-duration: 2s;
+	animation-name: opacity;
+}
+.entree-one,
+.main-one,
+.dessert-one{
+    animation-duration: 4s, 5s;
+	animation-name: opacity, marginTop;
+}
+.entree-two,
+.main-two,
+.dessert-two{
+    animation-duration: 5s, 7s;
+	animation-name: opacity, marginTop;
+}
+.entree-three,
+.main-three,
+.dessert-three{
+    animation-duration: 6s, 10s;
+	animation-name: opacity, marginTop;
+}
+.entree-four{
+    animation-duration: 7s, 14s;
+	animation-name: opacity, marginTop;
+}
+@keyframes opacity{
+	0%{
+        opacity: 0; 
+    }
+    20%{
+        opacity: 0; 
+    }
+    100%{ 
+        opacity: 1; 
+    }
+}
+@keyframes marginTop{
+	0%{
+        margin-top: 20px; 
+    }
+    100%{ 
+        margin-top: 0; 
+    }
+}
+
+/******************* form__field__list "hover animation" *******************/
+.form__field__list li:hover .form__field__check,
+.form__field__list li:hover .form__field__check-bSize{
+    margin-right: 0;
+    transition: margin-right .4s;
+}
+.form__field__list li:hover .fa-circle-check{
+    transform: rotate(720deg);
+    transition: transform .4s;
+}
+.form__field__list li:hover .form__field__info{
+    margin-right: 55px;
+    transition: margin-right .4s;
+}
+.form__field__list li:hover .form__field__info__price{
+    margin-right: 10px;
+    transition: margin-right .4s;
+}
+.form__field__list li:hover .form__field__info__additional{
+    margin-right: 45px;
+    transition: margin-right .4s;
+}
+.form__field__btnBox{
+    text-align: center;
+    margin-top: 22px;
+}
+
+/**********************************************************************************************/
+/******************************************** footer ******************************************/
+/**********************************************************************************************/
+.footer__wrap__logo-font-style{
+    font-family: 'Shrikhand', cursive;
+    font-size: 17px;
+    color: white;
+}

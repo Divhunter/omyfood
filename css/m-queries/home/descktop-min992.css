@@ -1,0 +1,62 @@
+/************************************************************************************************************/
+/********************************************* media queries ************************************************/
+/********************************** New rules if the screen is at more 991px ********************************/
+@media screen and (min-width: 992px){
+
+    /**********************************************************************************************/
+    /********************************************* main *******************************************/
+    /**********************************************************************************************/
+
+    /*************************************** restaurant *******************************************/
+    .restaurant{
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 64px;
+        padding-bottom: 97px;
+    }
+    .flexBox{
+        display: flex;
+        flex-wrap: nowrap;
+        width: auto;
+    }
+    .flexOne{
+        margin-bottom: 20px;
+    }
+    .restaurant__heading{
+        margin-left: 12px;
+    }
+    .restaurant__choice{
+        height: 285px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .new{
+        margin-top: -255px;
+        margin-right: 5.5%;
+    }
+    .restaurant__choice__imgBox{
+        height: 185px;
+    }
+    .img-r-la-palette-du-gout{
+        margin-top: -100px;
+    }
+    .img-r-la-note-enchantee{
+        margin-top: -200px;
+    }
+    .img-r-a-la-francaise{
+        margin-top: -100px;
+    }
+    .img-r-le-delice-des-sens{
+        margin-top: -100px;
+    }
+    .fa-heart--restaurantPosition{
+        position: relative;
+        float: right;
+        right: 8%;
+        margin-top: 20px;
+    }
+    .fa-heart--sizeExtra{
+        margin-right: -26px;
+        margin-top: 18px;
+    }
+}

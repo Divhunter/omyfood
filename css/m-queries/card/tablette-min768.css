@@ -1,0 +1,138 @@
+/************************************************************************************************************/
+/********************************************* media queries ************************************************/
+/********************************** New rules if the screen is at more 767px ********************************/
+@media screen and (min-width: 768px){
+
+    /**********************************************************************************************/
+    /******************************************** header ******************************************/
+    /**********************************************************************************************/
+    .nav__logo{
+        padding-top: 20px;
+        padding-bottom: 35px;
+    }
+    .nav__logo__img{
+        width: 200px;
+    }
+    .nav__food__picture{
+        height: 400px;
+        padding-top: 0px;
+    }
+    .nav__food__picture__img{
+        margin-top: -150px;
+    }
+    .img-la-note-enchantee{
+        margin-top: -270px;
+    }
+    .img-a-la-francaise{
+        margin-top: -95px;
+    }
+    .img-le-delice-des-sens{
+        margin-top: -90px;
+    }
+    
+    /**********************************************************************************************/
+    /********************************************* main *******************************************/
+    /**********************************************************************************************/
+    .form__meal__heading{
+        font-size: 30px;
+        margin-bottom: -65px;
+    }
+    .fa-heart--mealPosition{
+        right: 60px;
+        margin-top: 30px;
+    }
+    .entree{
+        margin-top: 125px;
+    }
+    .form__field__subheading{
+        margin-bottom: 2px;
+        font-size: 20px;
+        border-bottom: solid 4px  #99E2D0;
+        width: 50px;
+    }
+    .form__field__list{ 
+       margin-top: 20px;
+       margin-bottom: 30px;
+       padding-right: 3.5%;
+    }
+    .form__field__list li{
+        margin-bottom: 20px;
+    }
+    .form__field__check,
+    .form__field__check-bSize{
+        width: 100px;
+        margin-right: -100px;
+    }
+    .form__field__check{
+        height: 83px;
+    }
+    .form__field__check-bSize{
+        height: 104px;
+    }
+    .form__field__check > .fa-circle-check{
+        margin-top: 28%;
+    }
+    .form__field__check-bSize > .fa-circle-check{
+        margin-top: 38%;
+    }
+    .fa-circle-check{
+        font-size: 30px;
+    }
+    .form__field__info__name,
+    .form__field__info__additional{
+        margin-left: 10px;
+    }
+    .form__field__info__name{
+        font-size: 19px;
+    }
+    .form__field__info__price{
+        margin-right: 10px;
+    }
+    .form__field__btnBox__button{
+        height: 60px;
+        margin-top: 40px;
+        margin-bottom: 120px;
+        width: 205px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    h4 .restaurant__choice__info{
+        font-size: 18.5px;
+    }
+    p{
+        font-size: 16.5px;
+    } 
+
+    /**********************************************************************************************/
+    /******************************************** footer ******************************************/
+    /**********************************************************************************************/
+    .footer__wrap__logo-font-style{
+        font-size: 22px;
+    }
+    .footer__wrap__menu__one,
+    .footer__wrap__menu__two{
+        margin-left: -15px;
+    }
+    .footer__wrap__menu__iconUtensils{
+        font-size: 16px;
+        margin-left: -26px;
+        margin-top: 0;
+    }
+    .footer__wrap__menu__iconHands{
+        font-size: 15px;
+        margin-left: -27px;
+        margin-top: 0;
+    }
+
+    /******************* form__field__list "on page load animation" *******************/
+    /******************* opacity, margin-top *******************/
+    @keyframes marginTop{
+        0%{
+            margin-top: 40px; 
+        }
+        100%{ 
+            margin-top: 0; 
+        }
+    }
+}
+

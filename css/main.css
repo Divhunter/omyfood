@@ -1,0 +1,66 @@
+/**********************************************************************************************/
+/******************************************** main ********************************************/
+/**********************************************************************************************/
+body{
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+	margin: 0 auto;
+}
+*{
+    box-sizing: border-box;
+}
+.start{
+    position: relative;
+	text-align: center;
+    max-width: 1400px;
+    width: 100%;
+	margin: 0 auto; 
+}
+.fram{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	overflow: hidden;
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto; 
+}
+.container{
+	position: relative;
+	min-width: 330px;	
+	width: 100%;
+	margin: 0 auto; 
+}
+.form__field--list,
+.footer__wrap__menu{
+	list-style: none;
+}
+
+/*********************************************************************************************/
+/************************************** input, textarea **************************************/
+/*********************************************************************************************/
+input, 
+textarea{
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+input:focus{
+    outline-style: none;
+    background-color: white;
+    color: black;
+}
+input:active{ 
+    outline-style: none;
+}
+textarea{
+  resize: none;
+}
+textarea:focus{
+    outline-style: none;
+    background-color: white;
+    color: black;
+}
+textarea:active{ 
+    outline-style: none;
+}

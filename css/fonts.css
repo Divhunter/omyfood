@@ -1,0 +1,41 @@
+a, a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.nav__location__city__icon,
+.nav__location__city__input{
+    font-weight: bold;
+    font-size: 15.6px;
+    color: rgb(70, 70, 70);
+}
+.nav__menu h2{
+    font-weight: 700;
+    font-size: 24.2px;
+}
+.nav__menu__subheading{
+    font-weight: 300;
+    font-size: 17.9px;
+    letter-spacing: .05px;
+    color: rgb(100, 100, 100);
+}
+h3{
+    color: black;
+}
+h4{
+    color: black;
+    font-weight: 300;
+}
+h3 .restaurant__choice__name{
+    font-size: 23.8px;
+}
+.form__field__info__name{
+    font-size: 17.3px;
+}
+h4 .restaurant__choice__info{
+    font-size: 17px;
+}
+p{
+    font-size: 15px;
+}
